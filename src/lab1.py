@@ -37,8 +37,7 @@ def find_largest(numbers, k):
 data = [15, 7, 22, 9, 36, 2, 42, 18]
 print("Масив:", data)
 
-k = int(input("Введіть значення k: "))
-
+k = int(input("Введіть значення K: "))
 value, index = find_largest(data, k)
 if index == -1:
     print("Некоректне значення k")
